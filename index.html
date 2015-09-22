@@ -11,12 +11,12 @@
 <body>
 <h1>Are you lost?</h1>
 
-<button onclick="getLocation()">Find your location</button>
+<button onclick="getLocation()">Find out where you are!</button>
 
-<p id="demo"></p>
+<p id="location"></p>
 
 <script>
-var x = document.getElementById("demo");
+var x = document.getElementById("location");
 
 function getLocation() {
     if (navigator.geolocation) {

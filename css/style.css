@@ -14,18 +14,20 @@ html, body{
 h1{
 	font-size: 3em;
 	text-transform: uppercase;
-	margin-top: 100px;
+	padding-top: 100px;
+	width: 80%;
+	margin: 0px auto;
 	
 	
 	}
 
 	
-#demo{
+#location{
 	font-size: 1em;
 	
 	}
 
-buttton{
+button{
 	
 	background: none;
 	border: 2px solid;
@@ -34,5 +36,71 @@ buttton{
 	text-transform: uppercase;
 	padding: 15px;
 	color: tomato;
+	width: 75%;
 	
 	}
+	
+	
+	
+@media (min-width:768px) {
+	
+	h1{
+	font-size: 4em;
+	text-transform: uppercase;
+	padding-top: 100px;
+	width: 90%;
+	margin: 0px auto;
+	
+	
+	}
+	
+	button{
+	
+	background: none;
+	border: 2px solid;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding: 20px;
+	color: tomato;
+	width: 65%;
+	margin-top: 20px;
+	
+	}
+	
+	
+}
+
+
+ 
+@media (min-width:940px) {
+	
+	h1{
+	font-size: 6em;
+	text-transform: uppercase;
+	padding-top: 100px;
+	width: 90%;
+	margin: 0px auto;
+	
+	
+	}
+	
+	button{
+	
+	background: none;
+	border: 2px solid;
+	font-size: 3.5em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding: 20px;
+	color: tomato;
+	width: 90%;
+	margin-top: 20px;
+	
+	}
+	
+	
+	
+	
+	
+}
