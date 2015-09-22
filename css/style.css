@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	
+	background-image: url(../img/bkgd.jpg) no-repeat;
+	background-size: cover;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	}
+	
+	
+h1{
+	font-size: 3em;
+	text-transform: uppercase;
+	margin-top: 100px;
+	
+	
+	}
+
+	
+#demo{
+	font-size: 1em;
+	
+	}
+
+buttton{
+	
+	background: none;
+	border: 2px solid;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	padding: 15px;
+	color: tomato;
+	
+	}
